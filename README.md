@@ -1,4 +1,4 @@
-# basvi
+# BASVI - Proyecto de aplicación móvil
 
 app de vinos y licores
 
