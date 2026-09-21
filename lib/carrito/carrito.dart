@@ -112,12 +112,12 @@ class Carrito extends ChangeNotifier {
       "estado": "Pendiente",
     };
 
-// Guardar historial del usuario
+//  Guardar el pedido en el historial del usuario
     final pedidoUsuario = await referenciaUsuario
         .collection("pedidos")
         .add(pedido);
 
-// Guardar en colección global para el administrador
+// Registrar el pedido en la colección global para el administrador
     await firestore
         .collection("pedidos")
         .add({
