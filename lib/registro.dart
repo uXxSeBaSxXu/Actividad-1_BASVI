@@ -32,7 +32,7 @@ class _RegistroState extends State<Registro> {
     final confirmarPassword =
     confirmarPasswordController.text.trim();
 
-    // Validar campos vacíos
+    // Validación de campos del formulario
     if (nombre.isEmpty ||
         telefono.isEmpty ||
         correo.isEmpty ||
