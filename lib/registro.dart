@@ -483,3 +483,4 @@ class _RegistroState extends State<Registro> {
     );
   }
 }
+ESTO ES UN ERROR INTENCIONAL
